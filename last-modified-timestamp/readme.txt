@@ -1,11 +1,11 @@
 === Last Modified Timestamp ===
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 Contributors: aaemnnosttv
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LRA4JZYALHX82
-Tags: page modified, post modified, timestamp, last modified, modified time, custom post type modified
-Requires at least: 3.2.0
+Tags: page modified, post modified, updated at, last modified, modified time
+Requires at least: 4.6
 Requires PHP: 5.3
-Tested up to: 5.9.3
+Tested up to: 6.7.1
 License: GPLv2 or later
 
 Adds the last modified time to the admin interface as well as a [last-modified] shortcode to use on the front-end.
@@ -108,6 +108,10 @@ Example array structure is: `array('datef' => 'M j, Y', 'timef' => 'g:i', 'sep' 
 1. Admin messages after editing a page/post - ie: `Post updated. *timestamp* View Post`
 
 == Changelog ==
+
+= 1.0.6 =
+* Fix notice about loading translations too early
+* Bump minimum required version of WP to 4.6
 
 = 1.0.5 =
 * Tweaked hook for testing
